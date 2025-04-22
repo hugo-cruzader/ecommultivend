@@ -25,6 +25,7 @@ public class CartItem {
     @JsonIgnore //  We do not need the full cart item from fetching the item from frontend
     private Cart cart;
 
+    @ManyToOne
     private Product product;
 
     private String size;
