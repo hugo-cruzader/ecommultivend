@@ -1,5 +1,7 @@
 package com.cturbo.ecom.service;
 
-public class AuthService {
+import com.cturbo.ecom.response.SignupRequest;
 
+public interface AuthService {
+    String createUser(SignupRequest request);
 }
